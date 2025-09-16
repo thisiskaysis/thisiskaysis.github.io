@@ -2,23 +2,109 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <title>Kaycee</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./img/logo.png">
 </head>
 
 <body>
-    <p>Example text</p>
 
-    <h1>Look, a picture of a silly dog!</h1>
+    <header>
+       <div class="mobile-header">
+          <img src="./img/logo.png" alt="Kaycee Logo" class="logo">
+          <button type="button" class="hamburger-button">
+              <img class="hamburger-icon" src="./img/hamburger.svg"
+                  alt="Three horizontal lines, positioned one above the other." />
+          </button>
+      </div>
+      <nav class="desktop-nav" aria-label="Primary">
+          <ul>
+              <li>
+                  <a href="">Home</a>
+              </li>
+              <li>
+                  <a href="">Projects</a>
+              </li>
+              <li>
+                  <a href="">Contact</a>
+              </li>
+          </ul>
+      </nav>
+      <nav class="mobile-nav display-none" aria-label="Primary">
+          <ul>
+              <li>
+                  <a href="">Home</a>
+              </li>
+              <li>
+                  <a href="">Projects</a>
+              </li>
+              <li>
+                  <a href="">Contact</a>
+              </li>
+          </ul>
+      </nav>
+  </header>
 
-    <img
-    src="https://upload.wikimedia.org/wikipedia/commons/4/48/Silly_Dog_%282277051513%29.jpg"
-    alt="A silly looking dog."
-    width="400px"
-    />
+  <section class="hero">
+       <h1>Always Dreaming, Always Building, Always Becoming.</h1>
+       <a href="#" class="btn-primary">Get in Touch</a>
+   </section>
 
+ <section class="articles-container">
+
+      <article>
+          <img class="icon" src="./img/tools.svg"
+              alt="A wrench and a screwdriver, lying crossed over one another diagonally" />
+          <h2>About Me</h2>
+          <p>
+            I am a creative and driven individual passionate about bringing ideas to life through innovation, expression, and vision.
+            </p>
+          <a href="#" class="btn-primary">Find out more</a>
+      </article>
+
+      <article>
+          <img class="icon" src="./img/lightning.svg"
+              alt="A jagged lightning bolt, thick at the top and sharp at the bottom" />
+          <h2>Projects</h2>
+          <p>
+              Take a look at my web design portfolio and past projects.
+          </p>
+          <a href="#" class="btn-primary">Discover</a>
+      </article>
+
+      <article>
+          <img class="icon" src="./img/plus.svg"
+              alt="A plus sign formed by a horizontal line intersecting a vertical line" />
+          <h2>Get in Touch</h2>
+          <p>
+              Connect with me to explore potential collaborations or projects.
+          </p>
+          <a href="#" class="btn-primary">Get in Touch</a>
+      </article>
+
+  </section>
+
+  
+  <footer>
+      <a href="https://www.instagram.com/thisiskaysis/" title="@thisiskaysis on Instagram">
+          <img class="socials-icon" src="./img/instagram.svg"
+              alt="The Instagram logo" />
+      </a>
+      <a href="https://www.facebook.com/grandmasterkayc" title="Kaycee on Facebook">
+          <img class="socials-icon" src="./img/facebook.svg"
+              alt="The Facebook logo" />
+        </a>
+      <a href="https://github.com/thisiskaysis/" title="Thisiskaysis on GitHub">
+          <img class="socials-icon" src="./img/github.svg"
+              alt="The Github logo" />
+
+            <a href="https://www.linkedin.com/in/kaysisdigital/" title="kaysisdigital on LinkedIn">
+            <img class="socials-icon" src="./img/linkedin.svg"
+                alt="The LinkedIn logo" />
+      </a>
+  </footer>
 </body>
-
 </html>
