@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap')
+
 /* Base HTML Styles */
 
 :root {
-    --primary-color: #4CAF50;
-    --secondary-color: #ff5722;
-    --font-color: #333;
-    --background-color: #f9f9f9;
-    --border-radius: 5px;
+    --brand: #fbaeeb;
+    --action: #7be5f8;
+    --base-light: #98f5e1;
+    --base-dark: #30343f;
+    --highlight: #cba0ff;
+    --black: #111111;
+    --white: #ffffff;
 }
 
 /* CSS Reset */
