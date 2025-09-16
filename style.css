@@ -191,3 +191,66 @@ article:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     filter: contrast(150%);
 }
+
+article .icon {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+article .article-heading h2 {
+    margin-bottom: 16px;
+    color: var(--black);
+}
+
+article p {
+    margin-bottom: 16px;
+    color: var(--black);
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--highlight);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form label {
+    display: block;
+    width: 100%;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: var(--black);
+}
+
+.contact-form input[type="submit"] {
+    background-color: var(--action);
+    color: var(--black);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    transform: scale(1.05);
+    filter: contrast(150%);
+    color: var(--black);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
