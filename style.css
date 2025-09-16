@@ -9,6 +9,7 @@
     --highlight: #cba0ff;
     --black: #111111;
     --white: #ffffff;
+    --accent: #80b0f6;
 }
 
 /* CSS Reset */
@@ -60,24 +61,12 @@ input, button, textarea, select {
     line-height: inherit;
 }
 
-a {
-    color: var(--highlight);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 p {
     margin-bottom: 15px;
     color: var(--black);
     line-height: 1.5;
 }
 
-button:hover {
-    background-color: var(--secondary-color);
-}
 
 input, textarea {
     width: 100%;
@@ -125,3 +114,80 @@ input, textarea {
     text-decoration: none;
 }
 
+/* Header */
+header .mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--base-light);
+}
+
+header button {
+    all: unset
+}
+
+/* Logo */
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+/* .mobile-nav */
+.mobile-nav a {
+    text-decoration: none;
+    color: var(--black);
+    display: block;
+    flex-direction: column;
+    padding: 4px 16px;
+}
+
+/* .desktop-nav */
+.desktop-nav {
+    display: none;
+}
+
+/* .hamburger-icon */
+.hamburger-icon {
+    height: 50px;
+    width: 50px;
+}
+
+/* .hero */
+.hero {
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--highlight);
+    color: var(--white);
+    border-radius: 20px 20px 20px 20px;
+    margin: 5px 10px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--black);
+}
+
+.hero .hero-accent {
+    color: var(--action);
+}
+
+/* Articles */
+
+article {
+    background-color: var(--accent);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 32px 16px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+}
+
+article:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    filter: contrast(150%);
+}
