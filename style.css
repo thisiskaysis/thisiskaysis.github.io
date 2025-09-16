@@ -5,7 +5,7 @@
     --brand: #fbaeeb;
     --action: #7be5f8;
     --base-light: #98f5e1;
-    --base-dark: #30343f;
+    --base-dark: #121715;
     --highlight: #cba0ff;
     --black: #111111;
     --white: #ffffff;
@@ -266,4 +266,8 @@ footer {
     justify-content: center;
     background-color: var(--base-dark);
     border-radius: 20px 20px 20px 20px;
+}
+
+.socials-icon:hover {
+    transform: scale(1.2);
 }
