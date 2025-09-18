@@ -4,7 +4,7 @@
 :root {
     --brand: #fbaeeb;
     --action: #7be5f8;
-    --base-light: #98f5e1;
+    --base-light: #f7fae7;
     --base-dark: #121715;
     --highlight: #cba0ff;
     --black: #111111;
@@ -213,7 +213,7 @@ article p {
 /* Contact Form */
 .contact-form {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: var(--highlight);
     padding: 20px;
     border-radius: 10px;
