@@ -4,7 +4,7 @@
 :root {
     --brand: #fbaeeb;
     --action: #7be5f8;
-    --base-light: #f7fae7;
+    --base-light: #f5f5f5ba;
     --base-dark: #121715;
     --highlight: #cba0ff;
     --black: #111111;
@@ -265,6 +265,7 @@ article .icon {
     width: 80px;
     display: block;
     margin: 0 auto 10px auto;
+    opacity: 0.7;
 }
 
 article .article-heading h2 {
