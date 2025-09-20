@@ -122,6 +122,7 @@ header .mobile-header {
     padding: 10px 20px;
     background-color: var(--base-dark);
     border-radius: 20px 20px 20px 20px;
+    margin: 5px 10px;
 }
 
 header button {
@@ -162,11 +163,13 @@ header button {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
     background-color: var(--highlight);
-    color: var(--white);
     border-radius: 20px 20px 20px 20px;
     margin: 5px 10px;
+    background: linear-gradient(to bottom, var(--brand) 25%, var(--highlight) 50%);
 }
+
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -178,8 +181,8 @@ header button {
 }
 
 .profilepic {
-    height: 220px;
-    width: 220px;
+    height: 300px;
+    width: 300px;
     border-radius: 50% 0;
     object-fit: cover;
     margin-bottom: 20px;
@@ -222,6 +225,9 @@ article {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 @media (min-width: 768px) {
@@ -315,6 +321,7 @@ footer {
     justify-content: center;
     background-color: var(--base-dark);
     border-radius: 20px 20px 20px 20px;
+    margin: 5px 10px;
 }
 
 .socials-icon {
