@@ -133,7 +133,7 @@ body {
 header .mobile-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px 20px;
     border-radius: 20px 20px 20px 20px;
     margin: 5px 10px;
@@ -145,8 +145,9 @@ header button {
 
 /* Logo */
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: auto;
+    padding: -20px -20px;
 }
 
 /* .mobile-nav */
