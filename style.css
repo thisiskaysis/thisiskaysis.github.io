@@ -20,7 +20,6 @@ html {
     font-family: 'Anton', sans-serif;
     line-height: 1.6;
     color: var(--black);
-    background-color: var(--base-light);
     scroll-behavior: smooth;
 }
 
@@ -32,8 +31,9 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
+    font-weight: 10;
     margin-bottom: 15px;
-    color: var(--black);
+    color: var(--brand);
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -76,6 +76,16 @@ input, textarea {
     border-radius: var(--border-radius);
 }
 
+/* Body */
+body {
+    margin: 0;
+    background-image: url(./img/scene.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 /* Utilities */
 
 .display-none {
@@ -101,6 +111,7 @@ input, textarea {
     display: inline-block;
     text-decoration: none;
     border-radius: 10px 10px 10px 10px;
+    margin: 0 220px 0 220px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -120,7 +131,6 @@ header .mobile-header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: var(--base-dark);
     border-radius: 20px 20px 20px 20px;
     margin: 5px 10px;
 }
@@ -157,33 +167,21 @@ header button {
 
 /* .hero */
 .hero {
-    height: 55vh;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     position: relative;
-    background-color: var(--highlight);
     padding: 2rem;
     border-radius: 20px 20px 20px 20px;
     margin: 5px 10px;
-    background: linear-gradient(to bottom, var(--brand) 25%, var(--highlight) 50%);
 }
 
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: var(--black);
-}
-
-.profilepic {
-    height: 300px;
-    width: 300px;
-    max-width: 100%;
-    border-radius: 50% 0;
-    object-fit: cover;
-    margin-bottom: 20px;
-    padding-top: 10px;
 }
 
 @media (min-width: 768px) {
@@ -229,12 +227,13 @@ header button {
 
 article {
     background-color: var(--accent);
+    background: rgba(50, 50, 50, .5);
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 32px 16px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 10px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
