@@ -105,13 +105,14 @@ body {
 /* Btn-Primary */
 .btn-primary {
     background-color: var(--highlight);
+    background: rgba(203, 160, 255, 0.5);
     color: var(--black);
     border: none;
     padding: 10px 20px;
     display: inline-block;
     text-decoration: none;
     border-radius: 10px 10px 10px 10px;
-    margin: 0 220px 0 220px;
+    margin: 0 auto;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -119,6 +120,7 @@ body {
 .btn-primary:hover {
     transform: scale(1.05);
     background-color: var(--action);
+    background: rgba(123, 229, 248, 0.6);
     color: var(--black);
     transform: translateY(-6px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -248,6 +250,9 @@ article {
 article:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     filter: contrast(150%);
+    .btn-primary {
+        background: rgba(203, 160, 255, 0.7);
+    }
 }
 
 article .icon {
@@ -264,7 +269,8 @@ article .article-heading h2 {
 
 article p {
     margin-bottom: 16px;
-    color: var(--black);
+    color: var(--base-light);
+    font-weight: 100;
 }
 
 /* Contact Form */
