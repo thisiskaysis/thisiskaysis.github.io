@@ -16,7 +16,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Anton', sans-serif;
     line-height: 1.6;
     color: var(--black);
@@ -186,6 +186,7 @@ header button {
     border-radius: 50% 0;
     object-fit: cover;
     margin-bottom: 20px;
+    padding-top: 10px;
 }
 
 @media (min-width: 768px) {
@@ -242,8 +243,8 @@ article:hover {
 }
 
 article .icon {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     display: block;
     margin: 0 auto 10px auto;
 }
