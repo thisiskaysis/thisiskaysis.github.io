@@ -1,55 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<head>
-<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaycee</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" type="image/png" href="./img/butterfly.svg">
-</head>
-
-<body>
-
-    <header>
-       <div class="mobile-header">
-          <img src="./img/butterfly.svg" alt="Kaycee Logo" class="logo"/>
-          <button type="button" class="hamburger-button">
-              <img class="hamburger-icon" src="./img/hamburgermenu.svg"
-                  alt="Three horizontal lines, positioned one above the other." />
-          </button>
-      </div>
-      <nav class="desktop-nav" aria-label="Primary">
-          <ul>
-              <li>
-                  <a href="./index.html">Home</a>
-              </li>
-              <li>
-                  <a href="./projects.html">Projects</a>
-              </li>
-              <li>
-                  <a href="./contact.html">Contact</a>
-              </li>
-          </ul>
-      </nav>
-      <nav class="mobile-nav display-none" aria-label="Primary">
-          <ul>
-              <li>
-                  <a href="./index.html">Home</a>
-              </li>
-              <li>
-                  <a href="./projects.html">Projects</a>
-              </li>
-              <li>
-                  <a href="./contact.html">Contact</a>
-              </li>
-          </ul>
-      </nav>
-  </header>
-
-  <section class="hero">
-    <svg id="kayceehero2"
+<svg
    width="1080"
    height="1080"
    viewBox="0 0 1080 1080"
@@ -72,60 +24,3 @@
        transform="matrix(2.6760429,0,0,3.8724187,349.43124,-787.09361)" />
   </g>
 </svg>
-   </section>
-
- <section class="articles-container">
-
-      <article>
-          <img class="icon" src="./img/butterfly.svg"
-              alt="A cute butterfly" />
-          <h2>About Me</h2>
-          <p>
-            I am a creative and driven individual passionate about bringing ideas to life through innovation, expression, and vision.
-            </p>
-          <a href="./about.html" class="btn-primary">Find out more</a>
-      </article>
-
-      <article>
-          <img class="icon" src="./img/projects.svg"
-              alt="A paintbrush filling in a circular board" />
-          <h2>Projects</h2>
-          <p>
-              Take a look at my web design portfolio and past projects.
-          </p>
-          <a href="./projects.html" class="btn-primary">Discover</a>
-      </article>
-
-      <article>
-          <img class="icon" src="./img/contact.svg"
-              alt="An image of 2 emails with a send arrow" />
-          <h2>Get in Touch</h2>
-          <p>
-              Connect with me to explore potential collaborations or projects.
-          </p>
-          <a href="./contact.html" class="btn-primary">Get in Touch</a>
-      </article>
-
-  </section>
-
-  
-  <footer>
-      <a href="https://www.instagram.com/thisiskaysis/" title="@thisiskaysis on Instagram">
-          <img class="socials-icon" src="./img/instagram.svg"
-              alt="The Instagram logo" />
-      </a>
-      <a href="https://www.facebook.com/grandmasterkayc" title="Kaycee on Facebook">
-          <img class="socials-icon" src="./img/facebook.svg"
-              alt="The Facebook logo" />
-        </a>
-      <a href="https://github.com/thisiskaysis/" title="Thisiskaysis on GitHub">
-          <img class="socials-icon" src="./img/github.svg"
-              alt="The Github logo" />
-
-            <a href="https://www.linkedin.com/in/kaysisdigital/" title="kaysisdigital on LinkedIn">
-            <img class="socials-icon" src="./img/linkedin.svg"
-                alt="The LinkedIn logo" />
-      </a>
-  </footer>
-</body>
-</html>
