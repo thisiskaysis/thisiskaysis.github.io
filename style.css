@@ -159,12 +159,12 @@ header button {
 .hero {
     height: 55vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     position: relative;
     background-color: var(--highlight);
+    padding: 2rem;
     border-radius: 20px 20px 20px 20px;
     margin: 5px 10px;
     background: linear-gradient(to bottom, var(--brand) 25%, var(--highlight) 50%);
@@ -183,6 +183,7 @@ header button {
 .profilepic {
     height: 300px;
     width: 300px;
+    max-width: 100%;
     border-radius: 50% 0;
     object-fit: cover;
     margin-bottom: 20px;
@@ -200,9 +201,21 @@ header button {
 }
 
 @media (max-width: 767px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
     .profilepic {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        margin: 10px;
+        padding: 10px;
     }
 }
 
