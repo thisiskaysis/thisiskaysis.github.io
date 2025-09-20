@@ -198,6 +198,12 @@ article {
     margin: 10px;
 }
 
+@media (min-width: 768px) {
+    article {
+        padding: 32px;
+    }
+}
+
 article:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     filter: contrast(150%);
@@ -267,6 +273,13 @@ article p {
     cursor: pointer;
 }
 
+@media (min-width: 768px) {
+    .contact-form h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
 /* Footer */
 footer {
     padding: 32px 16px;
@@ -278,6 +291,19 @@ footer {
     border-radius: 20px 20px 20px 20px;
 }
 
+.socials-icon {
+    height: 56px;
+    width: 56px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
 .socials-icon:hover {
     transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+    footer {
+        justify-content: center;
+    }
 }
