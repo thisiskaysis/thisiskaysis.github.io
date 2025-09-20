@@ -1,5 +1,5 @@
 /* Base HTML Styles */
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Gochi+Hand&family=Just+Another+Hand&display=swap');
 
 :root {
     --brand: #fbaeeb;
@@ -16,8 +16,10 @@
 
 html {
     box-sizing: border-box;
-    font-size: 20px;
-    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+    font-family: "Gochi Hand", cursive;
+    font-weight: 10;
+    font-style: normal;
     line-height: 1.6;
     color: var(--black);
     scroll-behavior: smooth;
@@ -30,7 +32,8 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Anton', sans-serif;
+    font-family: "Gochi Hand", cursive;
+    font-style: normal;
     font-weight: 10;
     margin-bottom: 15px;
     color: var(--brand);
@@ -120,7 +123,6 @@ body {
 .btn-primary:hover {
     transform: scale(1.05);
     background-color: var(--action);
-    background: rgba(123, 229, 248, 0.6);
     color: var(--black);
     transform: translateY(-6px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -252,6 +254,9 @@ article:hover {
     filter: contrast(150%);
     .btn-primary {
         background: rgba(203, 160, 255, 0.7);
+    }
+    .btn-primary:hover {
+        background: rgba(123, 229, 248, 0.6);
     }
 }
 
