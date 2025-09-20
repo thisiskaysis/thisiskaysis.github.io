@@ -176,6 +176,16 @@ header button {
     color: var(--action);
 }
 
+/* Query Articles container */
+@media (min-width: 768px) {
+    .articles-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
 /* Articles */
 
 article {
