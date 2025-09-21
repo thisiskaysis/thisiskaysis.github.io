@@ -344,8 +344,9 @@ footer {
     flex-direction: row;
     justify-content: center;
     background-color: var(--base-dark);
+    background: rgba(50, 50, 50, .5);
     border-radius: 20px 20px 20px 20px;
-    margin: 5px 10px;
+    margin: 20px;
 }
 
 .socials-icon {
