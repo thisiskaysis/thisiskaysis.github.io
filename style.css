@@ -82,7 +82,7 @@ input, textarea {
 /* Body */
 body {
     margin: 0;
-    background-image: url(./img/scene.jpg);
+    background-image: url(./img/animecity.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -131,12 +131,15 @@ body {
 
 /* Header */
 header .mobile-header {
+    height: auto;
+    max-height: 100px;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 20px 20px 20px 20px;
-    margin: 5px 10px;
+    margin: 10px;
 }
 
 header button {
@@ -171,7 +174,7 @@ header button {
 
 /* .hero */
 .hero {
-    height: 10vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -183,9 +186,11 @@ header button {
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 500;
     margin-bottom: 20px;
-    color: var(--black);
+    color: var(--brand);
+    letter-spacing: 20px;
 }
 
 @media (min-width: 768px) {
@@ -194,7 +199,8 @@ header button {
     }
 
     .hero h1 {
-        font-size: 3.5rem;
+        font-size: 5rem;
+        display: inline-block;
     }
 }
 
@@ -211,9 +217,10 @@ header button {
     }
 
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
         margin: 10px;
         padding: 10px;
+        letter-spacing: 5px;
     }
 }
 
@@ -347,6 +354,11 @@ footer {
     background: rgba(50, 50, 50, .5);
     border-radius: 20px 20px 20px 20px;
     margin: 20px;
+}
+
+footer:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    filter: contrast(150%);
 }
 
 .socials-icon {
