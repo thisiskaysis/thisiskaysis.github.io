@@ -82,7 +82,7 @@ input, textarea {
 /* Body */
 body {
     margin: 0;
-    background-image: url(./img/animecity.jpg);
+    background-image: url(./img/nightsky.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -176,13 +176,13 @@ header button {
 .hero {
     height: auto;
     display: flex;
-    justify-content: center;
-    align-items: top;
-    text-align: justify;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
     position: relative;
     padding: 0;
     border-radius: 20px 20px 20px 20px;
-    margin: 5px 10px;
+    margin: 5px 20px;
 }
 
 .hero h1 {
@@ -200,13 +200,12 @@ header button {
   width: 180px;
   text-align: center;
   height: 36px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .dropping-texts > div {
   font-size:0px;
   opacity:0;
-  margin-left: 30px;
   position:absolute;
   font-weight:300;
 }
@@ -224,6 +223,7 @@ header button {
   animation: roll2 5s linear infinite 3s;
 }
 
+/* Hero Dropping Text Keyframes */
 @keyframes roll {
   0% {
     font-size:0px;
@@ -304,9 +304,12 @@ header button {
   }
 }
 
+/* Hero Queries */
 @media (min-width: 768px) {
     .hero {
         height: 55vh;
+        align-items: flex-start;
+        justify-content: center;
     }
 
     .hero h1 {
