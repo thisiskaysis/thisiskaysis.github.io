@@ -1,5 +1,5 @@
 /* Base HTML Styles */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Gochi+Hand&family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Freehand&family=Gochi+Hand&family=Just+Another+Hand&display=swap');
 
 :root {
     --brand: #fbaeeb;
@@ -178,7 +178,7 @@ header button {
     display: flex;
     justify-content: center;
     align-items: top;
-    text-align: center;
+    text-align: justify;
     position: relative;
     padding: 0;
     border-radius: 20px 20px 20px 20px;
@@ -188,6 +188,7 @@ header button {
 .hero h1 {
     font-size: 3rem;
     font-weight: 500;
+    text-align: justify;
     margin-bottom: 20px;
     color: var(--brand);
     letter-spacing: 10px;
@@ -205,7 +206,7 @@ header button {
 .dropping-texts > div {
   font-size:0px;
   opacity:0;
-  margin-left:-30px;
+  margin-left: 30px;
   position:absolute;
   font-weight:300;
 }
@@ -309,7 +310,7 @@ header button {
     }
 
     .hero h1 {
-        font-size: 4.5rem;
+        font-size: 4rem;
         display: inline-block;
     }
 }
