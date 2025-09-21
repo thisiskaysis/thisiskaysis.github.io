@@ -325,11 +325,6 @@ header button {
         height: auto;
         padding: 20px;
     }
-    
-    .profilepic {
-        height: 200px;
-        width: 200px;
-    }
 
     .hero h1 {
         font-size: 2rem;
@@ -398,6 +393,32 @@ article p {
     margin-bottom: 16px;
     color: var(--base-light);
     font-weight: 100;
+}
+
+/* About me */
+/* Profile container */
+.profilepic {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 10px;
+    padding: 32px 16px;
+}
+
+/* Profile img */
+.profileimg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+    .about-container {
+        display: grid;
+        gap: 20px;
+        padding: 20px;
+    }
 }
 
 /* Contact Form */
