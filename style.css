@@ -192,6 +192,7 @@ header button {
     margin-bottom: 20px;
     color: var(--brand);
     letter-spacing: 10px;
+    opacity: 0.8;
 }
 
 /* Hero Dropping texts */
