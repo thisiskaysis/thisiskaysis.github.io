@@ -1,5 +1,6 @@
 /* Base HTML Styles */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Freehand&family=Gochi+Hand&family=Just+Another+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Gochi+Hand&family=Patrick+Hand&display=swap');
 
 :root {
     --brand: #fbaeeb;
@@ -68,6 +69,10 @@ p {
     margin-bottom: 15px;
     color: var(--black);
     line-height: 1.5;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
 }
 
 input, textarea {
@@ -410,6 +415,10 @@ article p {
     border-radius: 50%;
     object-fit: cover;
     opacity: 0.9;
+}
+
+.about-container {
+    filter: contrast(200%);
 }
 
 @media (min-width: 768px) {
