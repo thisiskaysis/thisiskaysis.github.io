@@ -199,6 +199,10 @@ header button {
     opacity: 0.8;
 }
 
+.portfolio .hero {
+    margin-bottom: -30px;
+}
+
 /* Hero Dropping texts */
 .dropping-texts {
   display: inline-block;
@@ -320,6 +324,10 @@ header button {
     .hero h1 {
         font-size: 4rem;
         display: inline-block;
+    }
+
+    .portfolio .hero {
+        height: 40vh;
     }
 }
 
