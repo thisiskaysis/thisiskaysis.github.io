@@ -192,10 +192,6 @@ header button {
         display: inline-block;
     }
 
-    .desktop-nav:hover {
-        color: var(--action);
-    }
-
     .desktop-nav ul li a:hover {
         color: var(--action);
     }
