@@ -162,8 +162,9 @@ header button {
 
 /* Logo */
 .logo {
-    height: 150px;
+    height: 80px;
     width: auto;
+    opacity: 0.7;
 }
 
 /* .mobile-nav */
@@ -349,7 +350,6 @@ header button {
     }
 
     .hero h1 {
-        font-size: 4rem;
         display: inline-block;
     }
 
@@ -366,11 +366,12 @@ header button {
     }
 
     .hero h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 0;
         letter-spacing: 5px;
     }
 }
+
 
 /* Query Articles container */
 @media (min-width: 768px) {
