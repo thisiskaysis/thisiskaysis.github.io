@@ -142,6 +142,24 @@ header button {
     all: unset
 }
 
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 24px;
+        margin-right: 16px;
+    }
+
+    header .mobile-header .hamburger-icon {
+        display: none;
+    }
+}
+
 /* Logo */
 .logo {
     height: 150px;
@@ -160,6 +178,27 @@ header button {
 /* .desktop-nav */
 .desktop-nav {
     display: none;
+}
+
+@media (min-width: 768px) {
+    .desktop-nav a {
+        text-decoration: none;
+        font-size: larger;
+        color: var(--highlight);
+        opacity: 0.8;
+    }
+
+    .desktop-nav {
+        display: inline-block;
+    }
+
+    .desktop-nav:hover {
+        color: var(--action);
+    }
+
+    .desktop-nav ul li a:hover {
+        color: var(--action);
+    }
 }
 
 /* .hamburger-icon */
