@@ -23,13 +23,17 @@ html {
     font-style: normal;
     line-height: 1.6;
     color: var(--black);
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -220,7 +224,7 @@ header button {
 .hero h1 {
     font-size: 3rem;
     font-weight: 500;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 20px;
     color: var(--brand);
     letter-spacing: 5px;
@@ -240,23 +244,24 @@ header button {
   margin: 0;
 }
 
-.dropping-texts > div {
-  font-size:0px;
-  opacity:0;
-  position:absolute;
-  font-weight:300;
+.dropping-texts div {
+  font-size: 0px;
+  opacity: 0;
+  position: absolute;
+  font-weight: 300;
+  transform-origin: center center;
 }
 
-.dropping-texts > div:nth-child(1) {
+.dropping-texts div:nth-child(1) {
   animation: roll 5s linear infinite 0s;
 }
-.dropping-texts > div:nth-child(2) {
+.dropping-texts div:nth-child(2) {
   animation: roll 5s linear infinite 1s;
 }
-.dropping-texts > div:nth-child(3) {
+.dropping-texts div:nth-child(3) {
   animation: roll 5s linear infinite 2s;
 }
-.dropping-texts > div:nth-child(4) {
+.dropping-texts div:nth-child(4) {
   animation: roll2 5s linear infinite 3s;
 }
 
@@ -327,10 +332,9 @@ header button {
     transform: rotate(0deg);
   }
   37% {
-    font-size:800px;
+    transform: scale(10);
     opacity:0;
-    margin-left:-1000px;
-    margin-top:-800px;
+    margin: 0;
   }
   100% {
     font-size:0px;
