@@ -8,50 +8,38 @@
     <title>Kaycee</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/png" href="./img/butterfly.svg">
+    <script src="script.js" defer></script>
 </head>
 
-<body class="portfolio">
-
+<body>
+    
     <header>
-       <div class="mobile-header">
+       <div class="mobile-header" id="hamburger">
         <a href="./index.html">
           <img src="./img/butterfly.svg" alt="Butterfly logo" class="logo"/>
         </a>
-          <button type="button" class="hamburger-button">
-              <img class="hamburger-icon" src="./img/hamburgermenu.svg"
+        
+        <button type="button" class="hamburger-button" onclick="openburger()">
+          <img class="hamburger-icon" src="./img/hamburgermenu.svg"
                   alt="Three horizontal lines, positioned one above the other." />
-          </button>
+        </button>
+
       </div>
+
       <nav class="desktop-nav" aria-label="Primary">
           <ul>
-              <li>
-                  <a href="./index.html">Home</a>
-              </li>
-              <li>
-                <a href="./about.html">About Me</a>
-              </li>
-              <li>
-                  <a href="./projects.html">Projects</a>
-              </li>
-              <li>
-                  <a href="./contact.html">Contact</a>
-              </li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About Me</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./contact.html">Contact</a></li>
           </ul>
       </nav>
-      <nav class="mobile-nav display-none" aria-label="Primary">
+      <nav class="mobile-nav display-none" id="mobilemenu" aria-label="Primary">
           <ul>
-              <li>
-                  <a href="./index.html">Home</a>
-              </li>
-              <li>
-                <a href="./about.html">About Me</a>
-              </li>
-              <li>
-                  <a href="./projects.html">Projects</a>
-              </li>
-              <li>
-                  <a href="./contact.html">Contact</a>
-              </li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About Me</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./contact.html">Contact</a></li>
           </ul>
       </nav>
   </header>
