@@ -11,12 +11,14 @@
 - [x] Functional Contact Form
 - [x] "Projects" section
 - [x] Links to external sites, e.g. GitHub and LinkedIn.
+
+The actual content itself in terms of what was written wasn't too difficult to add to the website - I started with a basic layout based on the She Codes website we used as part of this lesson (my_first_website). I decided to have 4 pages - Index, About, Projects/Portfolio, and Contact. I spent the majority of the time working on my homepage (index.html), making aesthetic/design choices and playing around with colours, fonts, layouts and ideas. I made 3 articles to use as links to each page, inside an article container to control layout and reponsiveness.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
 - [x] At least 2 web pages.
 - [x] Version controlled with Git
-- [ ] Deployed on GitHub pages.
+- [x] Deployed on GitHub pages.
 - [x] Implements responsive design principles.
 - [x] Uses semantic HTML.
 
