@@ -103,6 +103,10 @@ body {
     display: none;
 }
 
+.mobile-nav {
+    display: block;
+}
+
 /* Components */
 
 /* Btn-Primary */
@@ -200,12 +204,26 @@ header button {
     .desktop-nav ul li a:hover {
         color: var(--action);
     }
+
+    .mobile-nav {
+        display: none !important;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
 }
 
 /* .hamburger-icon */
 .hamburger-icon {
     height: 50px;
     width: 50px;
+}
+
+.hamburger-button {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 /* .hero */
