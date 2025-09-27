@@ -218,13 +218,24 @@ header button {
         padding: 10px;
     }
 
+    /* mobile nav hidden by default */
     .mobile-nav {
         position: absolute;
         top: 100px;
         left: 0;
         width: 100%;
         z-index: 999;
+        overflow: hidden; /* need for height transition */
+        max-height: 0; /* collapsed */
+        opacity: 0;
+        transition: max-height 0.5s ease, opacity 0.5s ease;
         padding: 20px 0;
+    }
+
+    /* when mobile menu is open */
+    .mobile-nav.open {
+        max-height: 500px;
+        opacity: 1;
     }
 
     .mobile-nav a {
@@ -232,6 +243,13 @@ header button {
         text-decoration: none;
         font-size: 1.2rem;
         display: block;
+        padding: 10px 0;
+    }
+
+    .mobile-nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
         padding: 10px 0;
     }
 }
