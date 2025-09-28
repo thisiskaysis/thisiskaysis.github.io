@@ -22,12 +22,20 @@ I wanted to create a website that felt more creative and showed my personality a
 - [x] Implements responsive design principles.
 - [x] Uses semantic HTML.
 
-
+I wanted to create 4 pages - index, about, projects, contact. I used the template of my_first_website as a basis to work from, changing and adapting it as I learnt new skills each week. I controlled all versions with Git, committing changes frequently and working on branches for any new details or ideas, then merging to main. (Take a look at my "dev" branch to see what my website initially looked like!)
+In terms of responsiveness, I chose to have my articles in landscape (row) on wider screens (computer size), and stacked in a column on smaller screens (phone size). I changed the opacity to be darker on phone screens for readability since hover effects won't work.
+I tried to use semantic HTML through the entire code, however I had to use < div > once in order to get my animation working - I tried to use < ul > and < li > but couldn't get the animation to function (troubleshooting that... fun times).
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
-- [ ] Different styles for active, hover and focus states.
+- [x] Different styles for active, hover and focus states.
 - [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
+
+I loveeeee hover effects! I used many hover effects through my website:
+- On articles: contrast 150% for better readability.
+- On buttons: transform scale and translateY + box-shadow to add raise effect, as well as colour change.
+- On < nav > menu: colour change, pointer change.
+- On social media icons: transform scale.
 ​
 ### Screenshots
 > Please include the following:
