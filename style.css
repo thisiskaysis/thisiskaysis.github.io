@@ -146,7 +146,7 @@ header button {
 
 /* HERO */
 .hero {
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -158,7 +158,7 @@ header button {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 8vw, 4rem);
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
@@ -491,14 +491,14 @@ footer:hover {
     }
 
     .hero {
-        height: 30vh;
+        height: 40vh;
         align-items: flex-start;
         justify-content: center;
     }
 
-    .hero h1 {
+    /* .hero h1 {
         display: inline-block;
-    }
+    } */
 
     .portfolio .hero {
         height: 40vh;
@@ -535,19 +535,43 @@ footer:hover {
 @media (max-width: 768px) {
     .hero {
         justify-content: center;
-        height: auto;
+        height: 20vh;
         padding: 20px;
     }
 
-    .hero h1 {
-        font-size: 1.5rem;
-        margin: 0;
+    /* .hero h1 {
+        /* font-size: 1.5rem; */
+        /* margin: 0;
         letter-spacing: 5px;
-    }
+    }  */
 
 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero {
+        justify-content: center;
+        height: 70%;
+        padding: 20px;
+    }
+
+    /* .hero h1 {
+        margin: 0;
+        letter-spacing: 5px;
+    } */
+
+    .articles-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .articles-container > :nth-child(3) {
+        grid-column: 1 / -1;
+    }
+
+}
 
 /* Utilities */
 
