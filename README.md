@@ -12,7 +12,7 @@
 - [x] "Projects" section
 - [x] Links to external sites, e.g. GitHub and LinkedIn.
 
-The actual content itself in terms of what was written wasn't too difficult to add to the website - I started with a basic layout based on the She Codes website we used as part of this lesson (my_first_website). I decided to have 4 pages - Index, About, Projects/Portfolio, and Contact. I spent the majority of the time working on my homepage (index.html), making aesthetic/design choices and playing around with colours, fonts, layouts and ideas. I made 3 articles to use as links to each page, inside an article container to control layout and reponsiveness.
+I wanted to create a website that felt more creative and showed my personality a little. The background image combines my loves of anime, the night sky, and feels a little ethereal. The girl sitting on the right feels like me - looking up to the stars, dreaming about possibilities, manifesting ideas. I knew I wanted to use purples, greens, blues being my favourite colours - and once I decided on background image I wanted to make each section blend using opacity. I noticed that it may make the text harder to read, so I added hover effects to help with readability. The icon choices also needed to fit the theme - I chose to add links to Github, LinkedIn, Facebook and Instagram (although I will probably delete the social media at a later stage - I just wanted more than 2 for the aesthetics!). The projects section is currently blank, but I will have content to put here soon! I struggled mostly with condensing my ideas into something cohesive, creating a website that is easy and pretty to use, but not over-the-top.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
@@ -21,6 +21,8 @@ The actual content itself in terms of what was written wasn't too difficult to a
 - [x] Deployed on GitHub pages.
 - [x] Implements responsive design principles.
 - [x] Uses semantic HTML.
+
+
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
