@@ -13,7 +13,7 @@
     --accent: #80b0f6;
 }
 
-/* CSS Reset */
+/* RESET */
 
 html {
     box-sizing: border-box;
@@ -87,7 +87,7 @@ input, textarea {
     border-radius: var(--border-radius);
 }
 
-/* Body */
+/* BODY */
 body {
     margin: 0;
     background-image: url(./img/nightsky.jpg);
@@ -97,39 +97,9 @@ body {
     background-attachment: fixed;
 }
 
-/* Utilities */
-
-.display-none {
-    display: none;
-}
-
 /* Components */
 
-/* Btn-Primary */
-.btn-primary {
-    background-color: var(--highlight);
-    background: rgba(203, 160, 255, 0.5);
-    color: var(--black);
-    border: none;
-    padding: 10px 20px;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 10px 10px 10px 10px;
-    margin: 0 auto;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn-primary:hover {
-    transform: scale(1.05);
-    background-color: var(--action);
-    color: var(--black);
-    transform: translateY(-6px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-decoration: none;
-}
-
-/* Header */
+/* HEADER */
 header .mobile-header {
     height: auto;
     max-height: 100px;
@@ -146,29 +116,17 @@ header button {
     all: unset
 }
 
-@media (min-width: 768px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    header nav ul {
-        display: flex;
-        gap: 24px;
-        margin-right: 16px;
-    }
-
-    header .mobile-header .hamburger-icon {
-        display: none;
-    }
-}
-
-/* Logo */
+/* logo */
 .logo {
     height: 80px;
     width: auto;
     opacity: 0.7;
+}
+
+/* .hamburger-icon */
+  .hamburger-icon {
+    height: 50px;
+    width: 50px;
 }
 
 /* .mobile-nav */
@@ -185,32 +143,10 @@ header button {
     display: none;
 }
 
-@media (min-width: 768px) {
-    .desktop-nav a {
-        text-decoration: none;
-        font-size: larger;
-        color: var(--highlight);
-        opacity: 0.8;
-    }
 
-    .desktop-nav {
-        display: inline-block;
-    }
-
-    .desktop-nav ul li a:hover {
-        color: var(--action);
-    }
-}
-
-/* .hamburger-icon */
-.hamburger-icon {
-    height: 50px;
-    width: 50px;
-}
-
-/* .hero */
+/* HERO */
 .hero {
-    height: auto;
+    height: 100px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -235,7 +171,7 @@ header button {
     margin-bottom: -30px;
 }
 
-/* Hero Dropping texts */
+/* hero dropping texts */
 .dropping-texts {
   display: inline-block;
   width: 180px;
@@ -345,49 +281,7 @@ header button {
   }
 }
 
-/* Hero Queries */
-@media (min-width: 768px) {
-    .hero {
-        height: 55vh;
-        align-items: flex-start;
-        justify-content: center;
-    }
-
-    .hero h1 {
-        display: inline-block;
-    }
-
-    .portfolio .hero {
-        height: 40vh;
-    }
-}
-
-@media (max-width: 767px) {
-    .hero {
-        justify-content: center;
-        height: auto;
-        padding: 20px;
-    }
-
-    .hero h1 {
-        font-size: 1.5rem;
-        margin: 0;
-        letter-spacing: 5px;
-    }
-}
-
-
-/* Query Articles container */
-@media (min-width: 768px) {
-    .articles-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        padding: 20px;
-    }
-}
-
-/* Articles */
+/* ARTICLES */
 
 article {
     background-color: var(--accent);
@@ -401,12 +295,6 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-@media (min-width: 768px) {
-    article {
-        padding: 32px;
-    }
 }
 
 article:hover {
@@ -439,7 +327,32 @@ article p {
     font-weight: 100;
 }
 
-/* About me */
+/* btn-primary */
+.btn-primary {
+    background-color: var(--highlight);
+    background: rgba(203, 160, 255, 0.5);
+    color: var(--black);
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    background-color: var(--action);
+    color: var(--black);
+    transform: translateY(-6px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+/* ABOUT.HTML */
+
 /* Profile container */
 .profilepic {
     display: flex;
@@ -461,15 +374,7 @@ article p {
     filter: contrast(200%);
 }
 
-@media (min-width: 768px) {
-    .about-container {
-        display: grid;
-        gap: 20px;
-        padding: 20px;
-    }
-}
-
-/* Contact Form */
+/* CONTACT.HTML */
 .contact-form {
     max-width: 600px;
     margin: 20px auto;
@@ -522,14 +427,7 @@ article p {
     cursor: pointer;
 }
 
-@media (min-width: 768px) {
-    .contact-form h2 {
-        text-align: center;
-        font-size: 2.5rem;
-    }
-}
-
-/* Footer */
+/* FOOTER */
 footer {
     padding: 32px 16px;
     text-align: center;
@@ -558,8 +456,101 @@ footer:hover {
     transform: scale(1.2);
 }
 
+/* MEDIA QUERIES */
+
 @media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 24px;
+        margin-right: 16px;
+    }
+
+    header .mobile-header .hamburger-icon {
+        display: none;
+    }
+
+    .desktop-nav a {
+        text-decoration: none;
+        font-size: larger;
+        color: var(--highlight);
+        opacity: 0.8;
+    }
+
+    .desktop-nav {
+        display: inline-block;
+    }
+
+    .desktop-nav ul li a:hover {
+        color: var(--action);
+    }
+
+    .hero {
+        height: 30vh;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        display: inline-block;
+    }
+
+    .portfolio .hero {
+        height: 40vh;
+    }
+
+    .articles-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    article {
+        padding: 32px;
+    }
+
+    .about-container {
+        display: grid;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .contact-form h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
     footer {
         justify-content: center;
     }
+
+}
+
+@media (max-width: 768px) {
+    .hero {
+        justify-content: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        letter-spacing: 5px;
+    }
+
+
+}
+
+
+/* Utilities */
+
+.display-none {
+    display: none;
 }
